@@ -57,9 +57,17 @@
 
 // palindromi
 
+// inserisco una parola
+ const addWord = prompt('inserisci una parola');
+ console.log(addWord);
 
+//  attraverso una funzione cerco di capire se la parola inserita è palindroma
 
-
-
+function palWord(word) {
+    for (let index = 0; index < array.length; index++) {
+        const element = array[index];
+        
+    }
+}
 
 
