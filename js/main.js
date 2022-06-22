@@ -6,6 +6,15 @@ const userNum = prompt('inserisci un numero');
 
 // ora stabilisco per il pc un numero randomico da 1 a 5 utilizzando la funzione
 
-function getRandomNum(6) {
+function getRandomNum() {
     Math.floor((Math.random() * 6) + 1);
-} 
+};
+let i = 0
+for (let i = 1; i <= 5; index++) {
+    if (userNum > getRandomNum) {
+        console.log('you win');
+    } else if (userNum < getRandomNum) {
+        console.log('you lose');
+    }
+
+}
