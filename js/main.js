@@ -28,7 +28,19 @@ console.log("Hai inserito: " + inputNum);
 // genero un numero randomico per il pc usando una funzione
 
 function randomNum() {
-    
+    return Math.floor(Math.random() * (5 - 1 + 1) + 1);
 }
+const pcNum = randomNum(1, 5);
+
+console.log("pc inserisce: " + pcNum);
+
+// sommo i due numeri
+
+let sum = inputNum + pcNum;
+
+if
+
+
+
 
 
