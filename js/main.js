@@ -49,8 +49,8 @@ function pairDispair(num) {
 
 // stabiliamo chi è il vincitore
 
-if (pairDispair(num) && inputPairDispair == "pari" || !pairDispair(num) && imputiPairDispair == "dispari") {
-    console.log("vnce il giocatore")
+if (pairDispair(sum) && inputPairDispair == "pari" || !pairDispair(num) && imputiPairDispair == "dispari") {
+    console.log("vince il giocatore")
 } else{
     console.log("vince il computer");
 }
