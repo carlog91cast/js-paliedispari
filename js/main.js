@@ -38,12 +38,15 @@ console.log("pc inserisce: " + pcNum);
 
 let sum = inputNum + pcNum;
 
+console.log("la somma è: " + sum);
+
 function pairDispair(num){
     if (num % 2 === 0) {
         return true;
     }
     return false;
 };
+
 
 
 
