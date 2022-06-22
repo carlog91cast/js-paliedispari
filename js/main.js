@@ -7,8 +7,9 @@
 
 // Chiedo Pari o dispari
 
-    const inputPairDispair = prompt("Pari o dispari?");
+const inputPairDispair = prompt("Pari o dispari?");
 
- while (!(inputPairDispair == "pari" || inputEvenOdd == "dispari"))
+while (!(inputPairDispair == "pari" || inputPairDispair == "dispari")) {
+    console.log("Hai inserito: " + inputPairDispair);
+}
 
-console.log("Hai inserito: " + inputPairDispair);
