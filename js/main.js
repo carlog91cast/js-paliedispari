@@ -40,12 +40,20 @@ let sum = inputNum + pcNum;
 
 console.log("la somma è: " + sum);
 
-function pairDispair(num){
+function pairDispair(num) {
     if (num % 2 === 0) {
         return true;
     }
     return false;
 };
+
+// stabiliamo chi è il vincitore
+
+if (pairDispair(num) && inputPairDispair == "pari" || !pairDispair(num) && imputiPairDispair == "dispari") {
+    console.log("vnce il giocatore")
+} else{
+    console.log("vince il computer");
+}
 
 
 
