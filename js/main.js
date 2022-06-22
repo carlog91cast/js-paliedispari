@@ -63,10 +63,10 @@ console.log(addWord);
 
 //  attraverso una funzione cerco di capire se la parola inserita è palindroma
 
-function palWord(word) {
+function palWord(addWord) {
 
-    let wordInverted = ""
-    for (let i = addWord.length - 1; i > 0; i--) {
+    let wordInverted = "";
+    for (let i = addWord.length - 1; i >= 0; i--) {
 
         wordInverted += addWord[i];
     };
@@ -80,10 +80,11 @@ function palWord(word) {
 
 }
 
-if (palWord == addWord) {
-   console.log('è palindroma');
+if (palWord(addWord)) {
+    console.log(addWord + ' è palindroma ');
 } else {
-    console.log('non è palindroma');
+    console.log(addWord + ' non è palindroma ');
 };
+
 
 
