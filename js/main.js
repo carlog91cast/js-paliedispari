@@ -8,8 +8,27 @@
 // Chiedo Pari o dispari
 
 const inputPairDispair = prompt("Pari o dispari?");
+console.log("Hai inserito: " + inputPairDispair);
 
 while (!(inputPairDispair == "pari" || inputPairDispair == "dispari")) {
-    console.log("Hai inserito: " + inputPairDispair);
+    inputPairDispair++;
 }
+
+// chiedo un numero da 1 a 5
+
+let inputNum = 0;
+inputNum = parseInt(prompt("Inserisci un numero da 1 a 5"));
+
+while (inputNum < 1 || inputNum >= 5 || isNaN(inputNum)) {
+    inputNum++;
+};
+
+console.log("Hai inserito: " + inputNum);
+
+// genero un numero randomico per il pc usando una funzione
+
+function randomNum() {
+    
+}
+
 
