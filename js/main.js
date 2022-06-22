@@ -58,16 +58,32 @@
 // palindromi
 
 // inserisco una parola
- const addWord = prompt('inserisci una parola');
- console.log(addWord);
+const addWord = prompt('inserisci una parola');
+console.log(addWord);
 
 //  attraverso una funzione cerco di capire se la parola inserita è palindroma
 
 function palWord(word) {
-    for (let index = 0; index < array.length; index++) {
-        const element = array[index];
-        
+
+    let wordInverted = ""
+    for (let i = addWord.length - 1; i > 0; i--) {
+
+        wordInverted += addWord[i];
+    };
+
+    // vedo se la parola invertita è uguale a quella inserita
+
+    if (wordInverted == addWord) {
+        return true;
     }
+    return false;
+
 }
+
+if (palWord == addWord) {
+   console.log('è palindroma');
+} else {
+    console.log('non è palindroma');
+};
 
 
